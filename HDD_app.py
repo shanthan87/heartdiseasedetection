@@ -21,8 +21,8 @@ with col1:
 with col2:
     st.title('Failure')
     st.write('Forest')
-#    image = Image.open('C:/Users/Shanthan/PycharmProjects/pythonProject2/Heart.png')
-#    st.image(image, use_column_width=True)
+    image = Image.open('Heart.png')
+    st.image(image, use_column_width=True)
 
 with col3:
     st.title('Detection')
