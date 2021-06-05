@@ -28,7 +28,7 @@ with col3:
     st.title('Detection')
     st.write('Algorithm')
 
-df = pd.read_csv('\DataSet.csv')
+df = pd.read_csv('DataSet.csv')
 
 X = df.iloc[:, 0:12].values
 Y = df.iloc[:, -1].values
