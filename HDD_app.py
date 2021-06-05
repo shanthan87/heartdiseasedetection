@@ -21,7 +21,7 @@ with col1:
 with col2:
     st.title('Failure')
     st.write('Forest')
-    image = Image.open('https://github.com/shanthan87/heartdiseasedetection/blob/main/heart.png')
+    image = Image.open('heart.png')
     st.image(image, use_column_width=True)
 
 with col3:
