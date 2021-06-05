@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
-from PIL import Image
+from pillow import Image
 import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
