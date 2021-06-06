@@ -149,7 +149,7 @@ with col2:
     DecisionTreeClassifier = DecisionTreeClassifier()
     DecisionTreeClassifier.fit(x_train, y_train)
 
-    st.write('Decision Tree Classifier')
+    st.write('Decision Tree')
     y_preddt = DecisionTreeClassifier.predict(user_input)
     st.write(str(accuracy_score(y_test, DecisionTreeClassifier.predict(x_test)) * 100) + '%')
 
